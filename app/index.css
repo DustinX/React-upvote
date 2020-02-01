@@ -1,0 +1,56 @@
+/* generic items */
+
+ul{
+  list-style-type: none;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+  text-align: center;
+  font-family: arial;
+}
+
+/* grid items */
+.image{
+  grid-area: image;
+}
+
+.arrow{
+  grid-area: arrow;
+}
+
+.votes{
+  grid-area: votes;
+}
+
+.title{
+  grid-area: title;
+}
+
+.description{
+  grid-area: description;
+}
+
+.submitted{
+  grid-area: submitted;
+}
+
+.submitter{
+  grid-area: submitter;
+}
+
+.product{
+  display: grid;
+  grid-template-columns: 180px 10px 40px 50px 40px auto;
+  grid-template-rows: 60px 40px 40px 40px 10px;
+  grid-template-areas: 
+    "image . arrow votes . ."
+    "image . title title title title"
+    "image . description description description description"
+    "image . submitted submitted submitter ."
+  ;
+}
