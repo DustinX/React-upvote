@@ -11,6 +11,7 @@ const List = () => {
       <h1 className='header'>Popular Products</h1>
       <hr></hr>
       <ul>{ products
+              .sort( (a, b) => b.votes - a.votes)
               .map( product => <Product key={product.id} product={product} />)} 
       </ul>
     </div>
