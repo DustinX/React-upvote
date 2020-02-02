@@ -12,7 +12,12 @@ const List = () => {
       <hr></hr>
       <ul>{ products
               .sort( (a, b) => b.votes - a.votes)
-              .map( product => <Product key={product.id} product={product} />)} 
+              .map( product => <Product 
+                key={product.id} 
+                product={product} 
+                products={products} 
+                setProducts={setProducts}
+                />)} 
       </ul>
     </div>
   )
