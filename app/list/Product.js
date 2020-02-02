@@ -23,7 +23,7 @@ const Product = (props) => {
       <p    className="votes">{props.product.votes}</p>
       <a    className="title" href={props.product.url}>{props.product.title}</a>
       <p    className="description">{props.product.description}</p>
-      <p    className="submitted">Submitted by</p>
+      <p    className="submitted">Submitted by:</p>
       <img  className="submitter" src={props.product.submitterAvatarUrl}/>
     </li>
   )
