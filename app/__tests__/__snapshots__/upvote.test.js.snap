@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="list_page"
+>
+  <h1
+    className="header"
+  >
+    Popular Products
+  </h1>
+  <hr />
+  <ul>
+    <li
+      className="product"
+      data-testid="product"
+    >
+      <img
+        className="image"
+        src="images/products/image-aqua.png"
+      />
+      <img
+        className="arrow"
+        data-testid="vote-button"
+        onClick={[Function]}
+        src="images/ui/arrow.png"
+      />
+      <p
+        className="votes"
+        data-testid="votes"
+      >
+        10
+      </p>
+      <a
+        className="title"
+        href="#"
+      >
+        Yellow Pail
+      </a>
+      <p
+        className="description"
+      >
+        On-demand sand castle construction expertise.
+      </p>
+      <p
+        className="submitted"
+      >
+        Submitted by:
+      </p>
+      <img
+        className="submitter"
+        src="images/avatars/daniel.jpg"
+      />
+    </li>
+    <li
+      className="product"
+      data-testid="product"
+    >
+      <img
+        className="image"
+        src="images/products/image-rose.png"
+      />
+      <img
+        className="arrow"
+        data-testid="vote-button"
+        onClick={[Function]}
+        src="images/ui/arrow.png"
+      />
+      <p
+        className="votes"
+        data-testid="votes"
+      >
+        9
+      </p>
+      <a
+        className="title"
+        href="#"
+      >
+        Supermajority: The Fantasy Congress League
+      </a>
+      <p
+        className="description"
+      >
+        Earn points when your favorite politicians pass legislation.
+      </p>
+      <p
+        className="submitted"
+      >
+        Submitted by:
+      </p>
+      <img
+        className="submitter"
+        src="images/avatars/kristy.png"
+      />
+    </li>
+  </ul>
+</div>
+`;

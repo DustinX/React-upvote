@@ -17,10 +17,10 @@ const Product = (props) => {
   }
   
   return (
-    <li className="product">
+    <li className="product" data-testid="product">
       <img  className="image" src={props.product.productImageUrl}/>
-      <img  className="arrow" src='images/ui/arrow.png' onClick={incrementVote}/>
-      <p    className="votes">{props.product.votes}</p>
+      <img  className="arrow" src='images/ui/arrow.png' onClick={incrementVote} data-testid="vote-button"/>
+      <p    className="votes" data-testid="votes">{props.product.votes}</p>
       <a    className="title" href={props.product.url}>{props.product.title}</a>
       <p    className="description">{props.product.description}</p>
       <p    className="submitted">Submitted by:</p>
