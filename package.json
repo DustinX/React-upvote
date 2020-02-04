@@ -1,7 +1,7 @@
 {
   "name": "react-upvote",
   "version": "1.0.0",
-  "description": "",
+  "description": "Display product list, allow upvoting, sort products based on upvotes",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
