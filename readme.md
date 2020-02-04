@@ -9,13 +9,17 @@ Design decisions:
       
   Testing
     Uses: Jest, react-testing-library, jest-dom
+    Run tests:
+      npm run test
       
   Features
     Rank order display is achieved by sorting the list of products according to their vote count and updating the UI
 
   Building and viewing page
-    run 'npm run build' from the command line
+    npm install
+    npm run build
     copy seed.js into 'build' folder (I've already done this in the zipped )
       currently I left it so that the seeds.js has to be manually copied into the dist folder, since I felt that file was outside of the normal code for the page
     copy the images folder into the build folder
     open "index.html"
+    
