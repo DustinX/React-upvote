@@ -15,4 +15,7 @@ Design decisions:
 
   Building and viewing page
     run 'npm run build' from the command line
-    currently I left it so that the seeds.js has to be manually copied into the dist folder, since I felt that file was outside of the normal code for the page
+    copy seed.js into 'build' folder (I've already done this in the zipped )
+      currently I left it so that the seeds.js has to be manually copied into the dist folder, since I felt that file was outside of the normal code for the page
+    copy the images folder into the build folder
+    open "index.html"
