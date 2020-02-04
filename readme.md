@@ -12,3 +12,7 @@ Design decisions:
       
   Features
     Rank order display is achieved by sorting the list of products according to their vote count and updating the UI
+
+  Building and viewing page
+    run 'npm run build' from the command line
+    currently I left it so that the seeds.js has to be manually copied into the dist folder, since I felt that file was outside of the normal code for the page
