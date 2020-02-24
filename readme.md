@@ -20,11 +20,4 @@ Design decisions:
 * Functionality
   * Rank order display is achieved by sorting the list of products according to their vote count and updating the UI
 
-Building and viewing page:
-  1. npm install
-  2. npm run build
-  3. copy seed.js into 'build' folder (already done in the zipped file)
-      - I left it so that the seeds.js has to be manually copied into the dist folder, since I felt that file is outside of the normal code
-  4. copy the images folder into the build folder
-  5. open "index.html"
     
