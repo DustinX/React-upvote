@@ -28,18 +28,4 @@ const Product = (props) => {
   );
 };
 
-Product.propTypes = {
-  setProducts: PropTypes.function,
-  products: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.number,
-    url: PropTypes.string,
-    title: PropTypes.string,
-  })),
-  product: PropTypes.shape({
-    id: PropTypes.number,
-    url: PropTypes.string,
-    title: PropTypes.string,
-  }),
-};
-
 export default Product;
